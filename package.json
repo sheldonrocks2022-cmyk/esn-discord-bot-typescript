@@ -1,0 +1,24 @@
+{
+  "name": "esn-discord-bot-typescript",
+  "version": "1.0.0",
+  "description": "Discord bot starter with slash commands (TypeScript + discord.js v14) by ESN Systems",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "license": "MIT",
+  "homepage": "https://esnoffical.com",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.4"
+  }
+}
